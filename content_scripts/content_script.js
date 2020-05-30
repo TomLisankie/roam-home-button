@@ -2,7 +2,12 @@ homeButton = document.createElement("button");
 homeButton.class = "bp3-button bp3-minimal bp3-icon-calendar bp3-small";
 homeButton.style = "margin-left: 24px;";
 homeButton.innerText = "Home";
-console.log("hello from content script");
+homeButton.onclick = homeButtonClicked;
+
+function homeButtonClicked(e) {
+    e.preventDefault();
+    window.location = window.location.hash.split("/").slice(0,3).join("/");
+}
 
 function insertHomeButton() {
     roamTopbar = document.getElementsByClassName("roam-topbar")[0];
