@@ -5,7 +5,7 @@
         "32": "images/logo_32.png"
     },
     "description": "Button to go to Daily Notes when left sidebar is hidden",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "permissions": [
  	      "https://roamresearch.com/*"
     ],
