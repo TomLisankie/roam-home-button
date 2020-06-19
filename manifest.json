@@ -3,7 +3,8 @@
     "icons": {
         "16": "images/logo_16.png",
         "32": "images/logo_32.png",
-        "64": "images/logo_64.png"
+        "64": "images/logo_64.png",
+	"128": "logo_128.png"
     },
     "description": "Button to go to Daily Notes when left sidebar is hidden",
     "version": "0.0.1",
