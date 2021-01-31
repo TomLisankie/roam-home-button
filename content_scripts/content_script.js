@@ -10,12 +10,12 @@ function homeButtonClicked(e) {
 }
 
 function insertHomeButton() {
-    roamTopbar = document.getElementsByClassName("roam-topbar")[0];
+    roamTopbar = document.getElementsByClassName("rm-topbar")[0];
     if (roamTopbar == undefined) {
         window.setTimeout(insertHomeButton, 500);
         return;
     }
-    document.getElementsByClassName("roam-topbar")[0].getElementsByClassName("flex-h-box")[0].children[0].insertAdjacentElement("afterend", homeButton);
+    document.getElementsByClassName("rm-topbar")[0].getElementsByClassName("rm-open-left-sidebar-btn")[0].insertAdjacentElement("afterend", homeButton);
 }
 
 insertHomeButton();
